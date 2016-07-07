@@ -1,0 +1,345 @@
+body {
+font-family:helvetica, arial, sans-serif;
+}
+
+h1 {
+font-size:28px;
+line-height: 34px;
+font-weight:bold;
+margin-bottom:24px;
+}
+h2 {
+font-size:22px;
+line-height: 28px;
+font-weight:bold;
+margin-bottom:12px;
+}
+
+div.header {
+width:100%;
+text-align: center;
+padding:24px 0;
+}
+div.keypanel{
+float:left;
+}
+#guitarneck {
+width: 90%;
+    height: 300px;
+    margin-top:100px;
+    margin-left:5%;
+        margin-right:5%;
+}
+.strings {
+    position: absolute;
+    width: 90%;
+    margin-left: 0%;
+        margin-right: 5%;
+}
+
+.strings div {
+height:3px;
+background-color: #bbb;
+position:relative;
+}
+.string1 {
+top:22px;
+}
+
+.string2 {
+top:70px;
+}
+.string3 {
+top:116px;
+}
+.string4 {
+top:163px;
+}
+.string5 {
+top:211px;
+}
+.string6 {
+top:258px;
+}
+
+#guitarneck a {
+width:70px;
+height:50px;
+}
+.fret {
+width: 70px;
+float:left;
+margin-right: 0px;
+position:relative;
+}
+.fret a {
+clear:both;
+height:50px;
+display:block;
+}
+.fret0 a {
+height:30px;
+}
+.line {
+width:5px;
+height:300px;
+background-color: #000000;
+position:absolute;
+left:40px;
+}
+
+.fret0 .line {
+width:10px;
+}
+.marker{
+     height:50px;
+     width:25px;
+     border-radius: 0 50px 50px 0px;
+     -moz-border-radius: 0 50px 50px 0px;
+     -webkit-border-radius: 0 50px 50px 0px;
+/* 
+     background:green;
+ */
+     float:right;
+
+}
+.noteswitches {
+width:90%;
+margin-left:5%;
+margin-right:5%;
+}
+.noteswitches {
+clear:both;
+}
+.noteswitches .note {
+margin-right:0px;
+float:left;
+width:6.9%;
+}
+.noteswitches .note .marker {
+float:left;
+margin-left:5px;
+}
+ .dot{
+     height:30px;
+     width:30px;
+     border-radius: 30px;
+     -moz-border-radius: 30px;
+     -webkit-border-radius: 30px;
+     background:#dddddd;
+     border: 3px solid #aaaaaa;
+     float:left;
+     margin-top:6px;
+}
+
+.noteswitches .dot {
+     height:30px;
+     width:30px;
+     border-radius: 30px;
+     -moz-border-radius: 30px;
+     -webkit-border-radius: 30px;
+     background:#fff;
+     border: 3px solid #ddd;
+     float:left;
+     margin-top:6px;
+}
+
+.e1 .marker,.e2 .marker,.e3 .marker,.e4 .marker {
+background-color:#ed2024;
+}
+
+.f1 .marker,.f2 .marker,.f3 .marker,.f4 .marker {
+background-color:#f89a1c;
+}
+
+.fsh1 .marker,.fsh2 .marker,.fsh3 .marker,.fsh4 .marker {
+
+background: #ffffff url("../pics/notes.png") no-repeat -50px top;
+}
+	
+
+.g1 .marker,.g2 .marker,.g3 .marker,.g4 .marker {
+background-color:#f6eb14;
+
+}
+.gsh1 .marker,.gsh2 .marker,.gsh3 .marker,.gsh4 .marker {
+background: #ffffff url("../pics/notes.png") no-repeat -100px top;
+
+}
+
+.a1 .marker,.a2 .marker,.a3 .marker,.a4 .marker {
+background-color:#09aa4b;
+
+}
+
+.ash1 .marker,.ash2 .marker,.ash3 .marker,.ash4 .marker {
+background: #ffffff url("../pics/notes.png") no-repeat -150px top;
+
+}
+
+.b1 .marker,.b2 .marker,.b3 .marker,.b4 .marker {
+background-color:#4370b7;
+
+}
+
+.c1 .marker,.c2 .marker,.c3 .marker,.c4 .marker {
+background-color:#552b83;
+
+}
+
+.csh1 .marker,.csh2 .marker,.csh3 .marker,.csh4 .marker {
+background: #ffffff url("../pics/notes.png") no-repeat -225px top;
+
+}
+
+.d1 .marker,.d2 .marker,.d3 .marker,.d4 .marker {
+background-color:#bb3794;
+
+}
+
+.dsh1 .marker,.dsh2 .marker,.dsh3 .marker,.dsh4 .marker {
+background: #ffffff url("../pics/notes.png") no-repeat -275px top;
+
+}
+
+.notename {
+font-family: helvetica, arial, sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height:50px;
+margin-left:3px;
+color:#ffffff;
+}
+    
+.dot.noteon {
+        font-family: helvetica, arial, sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height:30px;
+color:#000000;
+background-color: #666;
+    }
+    .dot.noteon:after {
+    content: "X";
+    margin-left:9px;
+    color:#fff;
+    }
+     .dot.noteonroot {
+        font-family: helvetica, arial, sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height:30px;
+color:#fff;
+background-color: #000;
+    }
+    .dot.noteonroot:after {
+    content: "R";
+    margin-left:9px;
+    color:#fff;
+    }
+    
+    .fret0 {width:10.7%;}
+	.fret1 {width:9.9%;}
+    .fret2 {width:9.4%;}	
+    .fret3 {width:8.9%;}
+	.fret4 {width:8.4%;}
+    .fret5 {width:7.9%;}	    
+    .fret6 {width:7.5%;}
+	.fret7 {width:7%;}
+    .fret8 {width:6.7%;}	
+    .fret9 {width:6.3%;}	    
+    .fret10 {width:5.9%;}
+	.fret11 {width:5.6%;}
+    .fret12 {width:5.3%;}    
+
+
+/* 
+    .fret0 {width:6%;}
+	.fret1 {width:6%;}
+    .fret2 {width:6%;}	
+    .fret3 {width:6%;}
+	.fret4 {width:6%;}
+    .fret5 {width:6%;}	    
+    .fret6 {width:6%;}
+	.fret7 {width:6%;}
+    .fret8 {width:6%;}	
+    .fret9 {width:6%;}	    
+    .fret10 {width:6%;}
+	.fret11 {width:6%;}
+    .fret12 {width:6%;}   
+ */    
+    
+    .fretnumber {
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    } 
+        button {
+	background-color:#ccc;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	border:1px solid #aaa;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-size:15px;
+	padding:4px 9px;
+	text-decoration:none;
+	margin:6px;
+}
+    button.active {
+	background-color:#44c767;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	border:1px solid #aaa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:4px 9px;
+	text-decoration:none;
+}
+
+div.panel, div.keypanel {
+display:block;
+width: 12%;
+float:left;
+border-left:1px solid #666;
+padding:12px;
+}
+div.panels {
+width:90%;
+margin-left:5%;
+margin-right:5%;
+clear:both;
+}
+
+.rgtools {
+width:90%;
+margin-left:5%;
+margin-right:5%;
+clear:both;
+margin-bottom: 24px;
+height:70px;
+}
+.rgtools div.metronomebox,
+.rgtools div.tunerbox {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+
+#bpm {
+width: 200px;
+    float: left;
+    margin-right: 12px;
+ }
